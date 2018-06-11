@@ -2,9 +2,9 @@
 <!--未来天气信息的子项布局 -->
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp">
     <!--用于显示天气预报日期 -->
     <TextView
         android:id="@+id/date_text"
